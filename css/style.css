@@ -479,3 +479,17 @@
     section { padding:60px 5%; }
     #hero { padding:0 5%; }
   }
+.whatsapp-float{
+position:fixed;
+bottom:25px;
+right:25px;
+background:#25D366;
+color:white;
+padding:14px 18px;
+border-radius:40px;
+font-size:14px;
+font-weight:600;
+text-decoration:none;
+box-shadow:0 5px 15px rgba(0,0,0,0.3);
+z-index:999;
+}
