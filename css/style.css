@@ -92,7 +92,11 @@ h1 span{
 display:block;
 opacity:1;
 }
-  h1 .line1 { display:opacity:1; transform:none; }
+h1 .line1 {
+display:block;
+opacity:1;
+transform:none;
+}
   h1 .line2 { display:block; color: var(--gold);
     text-shadow: 0 0 40px rgba(212,168,67,0.45); }
   h1 .line3 { display:block; color: var(--gold); font-weight:700;
