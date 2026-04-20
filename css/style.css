@@ -512,3 +512,51 @@ box-shadow:0 10px 25px rgba(0,0,0,0.4);
 width:32px;
 height:32px;
 }
+
+.training-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  margin-top: 40px;
+}
+
+.training-card {
+  position: relative;
+  border-radius: 18px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.training-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.training-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
+
+.training-overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+  background: linear-gradient(to top, rgba(0,0,0,0.85), transparent);
+  color: #fff;
+}
+
+.training-overlay h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: var(--gold);
+}
+
+.training-overlay p {
+  font-size: 0.9rem;
+  margin: 6px 0 12px;
+  color: #ddd;
+}
