@@ -519,7 +519,12 @@ height:32px;
   gap: 25px;
   margin-top: 40px;
 }
-
+.training-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;   /* 🔥 FIX */
+  background: #0b1a3a;   /* optional: fills empty space nicely */
+}
 .training-card {
   position: relative;
   border-radius: 18px;
